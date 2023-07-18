@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.3.9](https://github.com/ljharb/through/compare/v2.3.8...v2.3.9) - 2023-07-17
+
+### Commits
+
+- [meta] add scripts, dev deps, linting; switch from travis to GHA [`2bc7e2d`](https://github.com/ljharb/through/commit/2bc7e2d1f63caf9cbdd146c9d752d3f62f564405)
+- [meta] rename package to scoped [`337610b`](https://github.com/ljharb/through/commit/337610b937196ad26abe40c7d191942c0d54f455)
+- [meta] confirmed with dominictarr in writing that this package was only ever MIT [`832061e`](https://github.com/ljharb/through/commit/832061e15beb9643b74e16b1f8343c36620f5be7)
+- [Dev Deps] update `from`, `stream-spec`, `tape` [`dae9dda`](https://github.com/ljharb/through/commit/dae9dda68c7df31960239957e7694de1f3bca40a)
+- [meta] fix auto-changelog start version [`3ac451b`](https://github.com/ljharb/through/commit/3ac451b684d4b4cb9356eb758691e6438b0083d1)
+- [Fix] `node &lt; v0.6` does not have `stream` === `stream.Stream` [`9f72162`](https://github.com/ljharb/through/commit/9f721627f62dfa4dad1f5515f4d3d1aa3613ccb0)
+
 <!-- auto-changelog-above -->
 
 ## [v2.3.8](https://github.com/ljharb/through/compare/v2.3.7...v2.3.8) - 2015-07-03

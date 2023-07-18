@@ -1,6 +1,6 @@
 {
 	"name": "@ljharb/through",
-	"version": "2.3.8",
+	"version": "2.3.9",
 	"description": "simplified stream construction",
 	"main": "index.js",
 	"scripts": {
