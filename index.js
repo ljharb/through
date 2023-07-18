@@ -1,6 +1,6 @@
 'use strict';
 
-var Stream = require('stream');
+var Stream = require('stream').Stream;
 
 // create a readable writable stream.
 
