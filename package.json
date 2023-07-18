@@ -53,7 +53,8 @@
 		"unreleased": false,
 		"commitLimit": false,
 		"backfillLimit": false,
-		"hideCredit": true
+		"hideCredit": true,
+		"startingVersion": "2.3.9"
 	},
 	"publishConfig": {
 		"ignore": [
