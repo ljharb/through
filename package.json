@@ -1,5 +1,5 @@
 {
-  "name": "through",
+  "name": "@ljharb/through",
   "version": "2.3.8",
   "description": "simplified stream construction",
   "main": "index.js",
@@ -21,9 +21,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dominictarr/through.git"
+    "url": "https://github.com/ljharb/through.git"
   },
-  "homepage": "https://github.com/dominictarr/through",
+  "homepage": "https://github.com/ljharb/through",
   "testling": {
     "browsers": [
       "ie/8..latest",
