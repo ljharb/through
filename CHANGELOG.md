@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.3.10](https://github.com/ljharb/through/compare/v2.3.9...v2.3.10) - 2023-10-10
+
+### Commits
+
+- [Robustness] use `call-bind` [`3fc8de1`](https://github.com/ljharb/through/commit/3fc8de1dd6b5c69ebca1b212d4852ca11e853cb2)
+- [Dev Deps] update `aud`, `tape` [`db14fcf`](https://github.com/ljharb/through/commit/db14fcf1457d1e35b22856de42767d0bf4773fd8)
+
 ## [v2.3.9](https://github.com/ljharb/through/compare/v2.3.8...v2.3.9) - 2023-07-17
 
 ### Commits
