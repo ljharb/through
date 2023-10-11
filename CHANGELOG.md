@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.3.11](https://github.com/ljharb/through/compare/v2.3.10...v2.3.11) - 2023-10-11
+
+### Commits
+
+- [Deps] add missing `call-bind` [`da5e46d`](https://github.com/ljharb/through/commit/da5e46d31045e18b79dc137bbc2bde1ebf839b38)
+
 ## [v2.3.10](https://github.com/ljharb/through/compare/v2.3.9...v2.3.10) - 2023-10-10
 
 ### Commits
