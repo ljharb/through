@@ -1,6 +1,6 @@
 {
 	"name": "@ljharb/through",
-	"version": "2.3.11",
+	"version": "2.3.12",
 	"description": "simplified stream construction",
 	"main": "index.js",
 	"types": "./through.d.ts",
