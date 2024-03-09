@@ -24,10 +24,10 @@
 		"call-bind": "^1.0.5"
 	},
 	"devDependencies": {
-		"@arethetypeswrong/cli": "^0.13.6",
+		"@arethetypeswrong/cli": "^0.13.10",
 		"@ljharb/eslint-config": "^21.1.0",
 		"@types/call-bind": "^1.0.5",
-		"@types/node": "^20.11.7",
+		"@types/node": "^20.11.25",
 		"aud": "^2.0.4",
 		"auto-changelog": "^2.4.0",
 		"eslint": "=8.8.0",
@@ -37,8 +37,8 @@
 		"nyc": "^10.3.2",
 		"safe-publish-latest": "^2.0.0",
 		"stream-spec": "^0.3.6",
-		"tape": "^5.7.4",
-		"typescript": "^5.4.0-dev.20240125"
+		"tape": "^5.7.5",
+		"typescript": "next"
 	},
 	"keywords": [
 		"stream",
