@@ -26,6 +26,7 @@
 	"devDependencies": {
 		"@arethetypeswrong/cli": "^0.13.10",
 		"@ljharb/eslint-config": "^21.1.0",
+		"@ljharb/tsconfig": "^0.1.1",
 		"@types/call-bind": "^1.0.5",
 		"@types/node": "^20.11.25",
 		"aud": "^2.0.4",
