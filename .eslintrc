@@ -6,6 +6,7 @@
 	"rules": {
 		"consistent-return": "warn",
 		"func-style": "warn",
+		"max-len": "off",
 		"max-lines-per-function": "off",
 		"max-statements-per-line": "warn",
 		"no-invalid-this": "warn",

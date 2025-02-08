@@ -19,7 +19,7 @@
 		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
 	},
 	"dependencies": {
-		"call-bind": "^1.0.7"
+		"call-bind": "^1.0.8"
 	},
 	"devDependencies": {
 		"@arethetypeswrong/cli": "^0.17.3",

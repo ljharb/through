@@ -9,8 +9,8 @@ var callBind = require('call-bind');
 
 /** @type {import('./through')} */
 function through(write, end, opts) {
-	var writeBound = callBind(write || function (data) { this.queue(data); });
-	var endBound = callBind(end || function () { this.queue(null); });
+	var writeBound = callBind(write || /** @type {(this: ThroughStream, data: unknown) => void} */ function (data) { this.queue(data); });
+	var endBound = callBind(end || /** @type {(this: ThroughStream) => void} */ function () { this.queue(null); });
 
 	var ended = false;
 	var destroyed = false;
