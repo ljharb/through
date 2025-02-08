@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.3.14](https://github.com/ljharb/through/compare/v2.3.13...v2.3.14) - 2025-02-07
+
+### Commits
+
+- [types] any falsy value is allowed as `write` or `end` [`0cc4d4d`](https://github.com/ljharb/through/commit/0cc4d4d11ce59315e236e9d858e47ead5845ed04)
+- [Dev Deps] update `@arethetypeswrong/cli`, `@ljharb/eslint-config`, `@ljharb/tsconfig`, `@types/node`, `@types/tape`, `auto-changelog`, `tape` [`a51fc2c`](https://github.com/ljharb/through/commit/a51fc2c9971e2e6aa6fa287bfb994e98bb529a9b)
+- [Deps] update `call-bind` [`78eabe4`](https://github.com/ljharb/through/commit/78eabe464e182780bbc81fcd6aeb4b37b52cb7a5)
+- [Tests] replace `aud` with `npm audit` [`908d64a`](https://github.com/ljharb/through/commit/908d64ae829470c03d3ebc84473991ca5bbca6f7)
+- [Dev Deps] add missing peer dep [`80f3805`](https://github.com/ljharb/through/commit/80f3805fdb93d21d4f205996768e0858a423c60d)
+
 ## [v2.3.13](https://github.com/ljharb/through/compare/v2.3.12...v2.3.13) - 2024-03-08
 
 ### Commits
