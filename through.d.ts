@@ -3,8 +3,8 @@
 import stream from 'stream';
 
 declare function through(
-    write?: (data: unknown) => void,
-    end?: () => void,
+    write?: null | ((data: unknown) => void),
+    end?: null | (() => void),
     opts?: { autoDestroy?: boolean },
 ): through.ThroughStream;
 
@@ -14,13 +14,13 @@ declare namespace through {
         paused: boolean;
         readable: boolean;
         writable: boolean;
-        destroy: () => ThroughStream | undefined;
-        end: (data: unknown) => ThroughStream | undefined;
-        pause: () => ThroughStream | undefined;
-        push: (chunk: unknown) => ThroughStream;
-        queue: (chunk: unknown) => ThroughStream;
-        resume: () => ThroughStream;
-        write: (chunk: unknown) => boolean;
+        destroy(): ThroughStream | undefined;
+        end(data: unknown): ThroughStream | undefined;
+        pause(): ThroughStream | undefined;
+        push(chunk: unknown): ThroughStream;
+        queue(chunk: unknown): ThroughStream;
+        resume(): ThroughStream;
+        write(chunk: unknown): boolean;
     }
 }
 
